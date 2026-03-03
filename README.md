@@ -17,8 +17,9 @@ Menambahkan data user baru. ID akan *digenerate* secara otomatis dalam bentuk UU
     }
     
 * Success Response (201 Created):
-```    
-json
+```
+
+```json
     {
         "status": "success",
         "data": {
@@ -27,7 +28,7 @@ json
             "age": 22
         }
     }
-    
+```
 
 ### 2. Ambil Semua Data User (Read All)
 Menampilkan daftar seluruh user yang ada di dalam *database*.
@@ -36,7 +37,7 @@ Menampilkan daftar seluruh user yang ada di dalam *database*.
 * Method: GET
 * Success Response (200 OK):
     
-json
+```json
     {
         "status": "success",
         "data": [
@@ -47,7 +48,7 @@ json
             }
         ]
     }
-    
+```
 
 ### 3. Ambil Detail User Spesifik (Read Detail)
 Mencari dan menampilkan detail satu user berdasarkan ID.
@@ -57,7 +58,7 @@ Mencari dan menampilkan detail satu user berdasarkan ID.
 * URL Params: id=[String]
 * Success Response (200 OK):
     
-json
+```json
     {
         "status": "success",
         "data": {
@@ -66,7 +67,7 @@ json
             "age": 22
         }
     }
-    
+```
 
 ### 4. Ubah Data User (Update)
 Memperbarui data nama dan/atau umur dari user yang sudah ada.
@@ -76,15 +77,16 @@ Memperbarui data nama dan/atau umur dari user yang sudah ada.
 * URL Params: id=[String]
 * Request Body:
     
-json
+```json
     {
         "name": "Fairuz Kurnia Update",
         "age": 22
     }
     
 * Success Response (200 OK):
-    
-json
+```
+
+```json
     {
         "status": "success",
         "data": {
@@ -93,7 +95,7 @@ json
             "age": 22
         }
     }
-    
+``` 
 
 ### 5. Hapus Data User (Delete)
 Menghapus data user secara permanen dari *database*.
@@ -103,10 +105,11 @@ Menghapus data user secara permanen dari *database*.
 * URL Params: id=[String]
 * Success Response (200 OK):
     
-json
+```json
     {
         "status": "success delete user with id 11568f9e-0f71-467d-9099-b9c8db03d019"
     }
+```
 
 ## SS Hasil
 Hasil tampilan web: <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a225a446-b81e-4189-aa3f-4e4c1ce6e329" />
