@@ -10,14 +10,14 @@ Menambahkan data user baru. ID akan *digenerate* secara otomatis dalam bentuk UU
 * Method: POST
 * Request Body:
     
-json
+```json
     {
         "name": "Fairuz Kurnia",
         "age": 22
     }
     
 * Success Response (201 Created):
-    
+```    
 json
     {
         "status": "success",
