@@ -15,9 +15,9 @@ Menambahkan data user baru. ID akan *digenerate* secara otomatis dalam bentuk UU
         "name": "Fairuz Kurnia",
         "age": 22
     }
-    
-* Success Response (201 Created):
 ```
+
+* Success Response (201 Created):
 
 ```json
     {
@@ -82,9 +82,9 @@ Memperbarui data nama dan/atau umur dari user yang sudah ada.
         "name": "Fairuz Kurnia Update",
         "age": 22
     }
-    
-* Success Response (200 OK):
 ```
+
+* Success Response (200 OK):
 
 ```json
     {
